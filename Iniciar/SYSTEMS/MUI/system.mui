@@ -1,0 +1,8 @@
+SYSTEM: LADER SCREEN RECORDER
+VERSION: 1.0.0
+ENTRY: /index.html
+STYLE: /Iniciar/Styles/CSS/style.css
+SCRIPT: /Iniciar/Styles/JS/recorder.js
+ASSET: /Iniciar/PNG/lader-screen-recorder.svg
+RUNTIME: MODERN WEB BROWSER
+PERMISSION: USER-SELECTED DISPLAY CAPTURE
