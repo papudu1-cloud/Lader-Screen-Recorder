@@ -1,0 +1,10 @@
+; Lader Screen Recorder options
+[recording]
+format=webm
+fps=30
+include_audio=ask_browser_permission
+[interface]
+theme=neon-dark
+language=pt-BR
+[privacy]
+upload_recordings=false
