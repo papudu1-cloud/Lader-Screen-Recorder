@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Gravador de tela Lader Screen Recorder.">
+  <title>Lader Screen Recorder</title>
+  <link rel="icon" href="Iniciar/PNG/lader-screen-recorder.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="Iniciar/Styles/CSS/style.css">
+  <script src="Iniciar/Styles/JS/recorder.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand"><img src="Iniciar/PNG/lader-screen-recorder.svg" alt="" width="42" height="42"><div><span class="eyebrow">LADER TOOLS</span><h1>Lader Screen Recorder</h1></div></div>
+      <span class="status" id="status" aria-live="polite">PRONTO</span>
+    </header>
+    <section class="panel">
+      <div class="intro"><p class="eyebrow">GRAVAÇÃO DE ECRÃ / TELA</p><h2>Capture o que está no seu ecrã.</h2><p>Escolha um ecrã, janela ou separador na janela de permissão do navegador. A gravação fica no seu dispositivo.</p></div>
+      <div class="controls">
+        <button class="primary" id="startBtn">● Iniciar gravação</button>
+        <button id="stopBtn" disabled>■ Parar</button>
+      </div>
+      <p class="hint" id="hint">Ao iniciar, o navegador pedirá que escolha o que pretende partilhar.</p>
+      <div class="preview-wrap"><video id="preview" controls playsinline></video><div id="emptyPreview">A pré-visualização aparecerá aqui.</div></div>
+      <div class="download-row"><a id="downloadLink" class="download disabled" aria-disabled="true">Descarregar gravação (.webm)</a><span id="duration">00:00</span></div>
+    </section>
+    <footer> LADER SCREEN RECORDER <span>•</span> A gravação é processada localmente pelo navegador.</footer>
+  </main>
+</body>
+</html>
